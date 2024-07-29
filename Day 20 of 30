@@ -1,0 +1,21 @@
+Day 20 of 30: (Important SQL interview questions with answers).
+
+What SQL operators are used for pattern matching?
+
+The LIKE operator is used to search for a specific pattern within a column. It is used with a WHERE clause to query specific columns.
+
+LIKE is used with two wildcard characters:
+
+% - represents a 0, 1 or multiple characters.
+
+_ (underscore) - represents a single character
+
+Here are a few examples:
+
+WHERE Employee Name LIKE '%r' - Finds matches that end with "r"
+
+WHERE Employee NAME LIKE '%gh%' - Finds matches that include "gh" in any position `
+
+WHERE Employee NAME LIKE '_ch%' - Finds matches with "ch" in the second and third positions
+ 
+WHERE Employee NAME LIKE 'g%r' - Finds matches that start with "g" and end with "r".
